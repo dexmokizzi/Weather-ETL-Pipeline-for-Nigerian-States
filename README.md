@@ -48,3 +48,17 @@ An end-to-end data pipeline that collects, cleans, and stores **historical weath
 git clone https://github.com/your-username/weather-etl-project.git
 cd weather-etl-project
 pip install -r requirements.txt
+```
+
+
+## Configure Credentials
+Update PostgreSQL user/password in weather_etl.py.
+
+Run the ETL
+
+```bash
+python weather_etl.py
+```
+
+- Automatically creates the weather_data database if needed.
+- Pulls weather data from 2010 to the current date and inserts it into historical_weather_data.
