@@ -54,11 +54,25 @@ pip install -r requirements.txt
 ## Configure Credentials
 Update PostgreSQL user/password in weather_etl.py.
 
-Run the ETL
+# Run the ETL
 
 ```bash
 python weather_etl.py
 ```
 
-- Automatically creates the weather_data database if needed.
-- Pulls weather data from 2010 to the current date and inserts it into historical_weather_data.
+- Automatically creates the `weather_data` database if needed.
+- Pulls weather data from 2010 to the current date and inserts it into `historical_weather_data`.
+
+---
+
+## Scheduling
+- Cron (Linux/macOS) or Windows Task Scheduler can be set to run `weather_etl.py` every day (e.g., 10:00 AM) to ensure real-time dashboard insights.
+- If your machine is off, the job won’t run—consider a cloud VM or a Raspberry Pi for uninterrupted scheduling.
+
+---
+
+## Roadmap
+- Fill Data Gaps: Explore alternate APIs or open-source datasets to cover missing states.
+- Dashboards: Integrate with tools like Power BI, Tableau, or Streamlit for real-time visualizations.
+- Scalability: Add features like parallel data ingestion, advanced error handling, or orchestrators (Airflow/Prefect).
+- Expanded Use Cases: Potential for climate modeling, forecasting, and more advanced analytics.
