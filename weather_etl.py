@@ -31,8 +31,8 @@ logging.info(f"Configured States: {state_names}")
 
 # Database connection details
 DB_NAME = 'weather_data'
-DB_USER = 'postgres'
-DB_PASSWORD = 'savage'  # Replace with your actual password
+DB_USER = 'XXXXXX'
+DB_PASSWORD = 'XXXXXX'  # Replace with your actual password
 DB_HOST = 'localhost'
 DB_PORT = '5432'
 
