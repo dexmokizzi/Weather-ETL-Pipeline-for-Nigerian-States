@@ -76,3 +76,22 @@ python weather_etl.py
 - Dashboards: Integrate with tools like Power BI, Tableau, or Streamlit for real-time visualizations.
 - Scalability: Add features like parallel data ingestion, advanced error handling, or orchestrators (Airflow/Prefect).
 - Expanded Use Cases: Potential for climate modeling, forecasting, and more advanced analytics.
+
+---
+
+## Why This Project?
+- Data Engineering Showcase: Demonstrates the ETL lifecycle, from API ingestion to robust schema design.
+- Best Practices: Emphasizes modular code organization, detailed logging, and duplication checks.
+- Growth Potential: Can be scaled to larger datasets, more APIs, or bigger analytics frameworks.
+
+## Contributing
+Contributions are always welcome! Whether it’s suggestions to enhance the pipeline or fixes for missing data, submit a pull request. Let’s keep refining this data engineering playground.
+
+## License
+Licensed under the MIT License. Feel free to use or modify for your own data-driven projects.
+
+---
+## Thank you for checking out this Weather ETL Project!
+If you have questions or want more details, read my Medium post for a deeper exploration of data coverage challenges and potential solutions.
+
+
