@@ -32,7 +32,7 @@ logging.info(f"Configured States: {state_names}")
 # Database connection details
 DB_NAME = 'weather_data'
 DB_USER = 'XXXXXX'
-DB_PASSWORD = 'XXXXXX'  # Replace with your actual password
+DB_PASSWORD = 'XXXXXX'
 DB_HOST = 'localhost'
 DB_PORT = '5432'
 
