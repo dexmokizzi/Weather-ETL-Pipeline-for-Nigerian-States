@@ -1,6 +1,11 @@
 # Weather ETL Project
 
 An end-to-end data pipeline that collects, cleans, and stores **historical weather data** for Nigerian states. This project showcases key **data engineering** principles—extraction, transformation, loading, logging, and automation—all in one place.
+---
+
+## Architecture Diagram
+
+![Data Architecture](flow_diagram.png)
 
 ---
 
@@ -37,6 +42,7 @@ An end-to-end data pipeline that collects, cleans, and stores **historical weath
 - **Meteostat API**: Source of raw weather data.
 - **PostgreSQL**: Target data warehouse; automatically initialized if absent.
 - **Logging**: Built-in Python `logging` module for operational visibility.
+- **Looker**: For Visualization
 
 ---
 
