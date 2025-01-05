@@ -79,7 +79,6 @@ python weather_etl.py
 
 ## Roadmap
 - Fill Data Gaps: Explore alternate APIs or open-source datasets to cover missing states.
-- Dashboards: Integrate with tools like Power BI, Tableau, or Streamlit for real-time visualizations.
 - Scalability: Add features like parallel data ingestion, advanced error handling, or orchestrators (Airflow/Prefect).
 - Expanded Use Cases: Potential for climate modeling, forecasting, and more advanced analytics.
 
