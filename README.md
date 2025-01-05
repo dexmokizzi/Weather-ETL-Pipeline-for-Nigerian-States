@@ -1,4 +1,4 @@
-# Weather ETL Project
+## Weather ETL Project
 
 An end-to-end data pipeline that collects, cleans, and stores **historical weather data** for Nigerian states. This project showcases key **data engineering** principles—extraction, transformation, loading, logging, and automation—all in one place.
 ---
