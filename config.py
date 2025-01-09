@@ -1,3 +1,12 @@
+DB_CONFIG = {
+    'dbname': 'weather_data_store',
+    'user': 'postgres',
+    'password': 'savage',
+    'host': 'localhost',
+    'port': '5432'
+}
+
+# Metadata for states
 STATES = [
     {'name': 'Abia',       'capital': 'Umuahia',       'region': 'South East',    'lat': 5.532,  'lon': 7.486},
     {'name': 'Adamawa',    'capital': 'Yola',          'region': 'North East',    'lat': 9.326,  'lon': 12.398},
